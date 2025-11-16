@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/wheels
+wheels/__init__.py
+wheels/motor_control.py
+wheels.egg-info/PKG-INFO
+wheels.egg-info/SOURCES.txt
+wheels.egg-info/dependency_links.txt
+wheels.egg-info/entry_points.txt
+wheels.egg-info/requires.txt
+wheels.egg-info/top_level.txt
+wheels.egg-info/zip-safe

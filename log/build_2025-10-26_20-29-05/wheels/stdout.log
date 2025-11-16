@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating wheels.egg-info
+writing wheels.egg-info/PKG-INFO
+writing dependency_links to wheels.egg-info/dependency_links.txt
+writing entry points to wheels.egg-info/entry_points.txt
+writing requirements to wheels.egg-info/requires.txt
+writing top-level names to wheels.egg-info/top_level.txt
+writing manifest file 'wheels.egg-info/SOURCES.txt'
+reading manifest file 'wheels.egg-info/SOURCES.txt'
+writing manifest file 'wheels.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dd3xp/sl/install/wheels/lib/python3.10/site-packages/wheels.egg-link (link to .)
+Installing motor_control script to /home/dd3xp/sl/install/wheels/lib/wheels
+
+Installed /home/dd3xp/sl/build/wheels
+running symlink_data
+creating /home/dd3xp/sl/install/wheels/share/ament_index
+creating /home/dd3xp/sl/install/wheels/share/ament_index/resource_index
+creating /home/dd3xp/sl/install/wheels/share/ament_index/resource_index/packages
+symbolically linking /home/dd3xp/sl/build/wheels/resource/wheels -> /home/dd3xp/sl/install/wheels/share/ament_index/resource_index/packages
+symbolically linking /home/dd3xp/sl/build/wheels/package.xml -> /home/dd3xp/sl/install/wheels/share/wheels

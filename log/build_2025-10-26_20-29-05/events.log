@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001311] (wheels) JobQueued: {'identifier': 'wheels', 'dependencies': OrderedDict()}
+[0.001727] (wheels) JobStarted: {'identifier': 'wheels'}
+[0.098104] (-) TimerEvent: {}
+[0.199030] (-) TimerEvent: {}
+[0.299834] (-) TimerEvent: {}
+[0.400530] (-) TimerEvent: {}
+[0.501185] (-) TimerEvent: {}
+[0.601814] (-) TimerEvent: {}
+[0.702546] (-) TimerEvent: {}
+[0.803247] (-) TimerEvent: {}
+[0.903872] (-) TimerEvent: {}
+[1.004514] (-) TimerEvent: {}
+[1.105167] (-) TimerEvent: {}
+[1.206047] (-) TimerEvent: {}
+[1.307274] (-) TimerEvent: {}
+[1.408032] (-) TimerEvent: {}
+[1.508761] (-) TimerEvent: {}
+[1.609435] (-) TimerEvent: {}
+[1.710111] (-) TimerEvent: {}
+[1.810899] (-) TimerEvent: {}
+[1.911522] (-) TimerEvent: {}
+[2.012371] (-) TimerEvent: {}
+[2.112968] (-) TimerEvent: {}
+[2.213655] (-) TimerEvent: {}
+[2.314402] (-) TimerEvent: {}
+[2.415095] (-) TimerEvent: {}
+[2.515740] (-) TimerEvent: {}
+[2.616401] (-) TimerEvent: {}
+[2.717133] (-) TimerEvent: {}
+[2.817961] (-) TimerEvent: {}
+[2.918727] (-) TimerEvent: {}
+[3.019687] (-) TimerEvent: {}
+[3.120467] (-) TimerEvent: {}
+[3.221066] (-) TimerEvent: {}
+[3.321937] (-) TimerEvent: {}
+[3.423007] (-) TimerEvent: {}
+[3.507952] (wheels) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dd3xp/sl/build/wheels/build', '--no-deps', 'symlink_data'], 'cwd': '/home/dd3xp/sl/build/wheels', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dd3xp', 'SSH_CLIENT': '192.168.0.100 57142 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/dd3xp/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/dd3xp/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dd3xp', 'OLDPWD': '/home/dd3xp/sl/src', 'TERM_PROGRAM_VERSION': '1.7.54', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4de48f8f-708d-4def-bdba-3f504e15a0ab.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dd3xp/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dd3xp/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dd3xp/.cursor-server/extensions/ms-python.debugpy-2025.14.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dd3xp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dd3xp/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/opt/ros/humble/bin:/home/dd3xp/.cursor-server/bin/5c17eb2968a37f66bc6662f48d6356a100b67be0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dd3xp/.cursor-server/extensions/ms-python.debugpy-2025.14.1-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dd3xp/.cursor-server/extensions/ms-python.debugpy-2025.14.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-773d773b0912325e.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-30c782e162.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dd3xp/sl/build/wheels', 'SSH_CONNECTION': '192.168.0.100 57142 192.168.0.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dd3xp/sl/build/wheels/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dd3xp/sl/install/wheels/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.527878] (-) TimerEvent: {}
+[3.630655] (-) TimerEvent: {}
+[3.731908] (-) TimerEvent: {}
+[3.832877] (-) TimerEvent: {}
+[3.934529] (-) TimerEvent: {}
+[4.036147] (-) TimerEvent: {}
+[4.136966] (-) TimerEvent: {}
+[4.239492] (-) TimerEvent: {}
+[4.341604] (-) TimerEvent: {}
+[4.444050] (-) TimerEvent: {}
+[4.545603] (-) TimerEvent: {}
+[4.647392] (-) TimerEvent: {}
+[4.749777] (-) TimerEvent: {}
+[4.850725] (-) TimerEvent: {}
+[4.952602] (-) TimerEvent: {}
+[5.054674] (-) TimerEvent: {}
+[5.155494] (-) TimerEvent: {}
+[5.256466] (-) TimerEvent: {}
+[5.357200] (-) TimerEvent: {}
+[5.424965] (wheels) StdoutLine: {'line': b'running develop\n'}
+[5.457493] (-) TimerEvent: {}
+[5.558439] (-) TimerEvent: {}
+[5.659274] (-) TimerEvent: {}
+[5.760364] (-) TimerEvent: {}
+[5.862325] (-) TimerEvent: {}
+[5.964699] (-) TimerEvent: {}
+[6.067008] (-) TimerEvent: {}
+[6.169146] (-) TimerEvent: {}
+[6.271895] (-) TimerEvent: {}
+[6.372728] (-) TimerEvent: {}
+[6.475059] (-) TimerEvent: {}
+[6.576831] (-) TimerEvent: {}
+[6.678527] (-) TimerEvent: {}
+[6.780712] (-) TimerEvent: {}
+[6.882356] (-) TimerEvent: {}
+[6.984279] (-) TimerEvent: {}
+[7.086749] (-) TimerEvent: {}
+[7.096839] (wheels) StdoutLine: {'line': b'running egg_info\n'}
+[7.097664] (wheels) StdoutLine: {'line': b'creating wheels.egg-info\n'}
+[7.099909] (wheels) StdoutLine: {'line': b'writing wheels.egg-info/PKG-INFO\n'}
+[7.104627] (wheels) StdoutLine: {'line': b'writing dependency_links to wheels.egg-info/dependency_links.txt\n'}
+[7.107284] (wheels) StdoutLine: {'line': b'writing entry points to wheels.egg-info/entry_points.txt\n'}
+[7.109854] (wheels) StdoutLine: {'line': b'writing requirements to wheels.egg-info/requires.txt\n'}
+[7.112441] (wheels) StdoutLine: {'line': b'writing top-level names to wheels.egg-info/top_level.txt\n'}
+[7.115904] (wheels) StdoutLine: {'line': b"writing manifest file 'wheels.egg-info/SOURCES.txt'\n"}
+[7.128850] (wheels) StdoutLine: {'line': b"reading manifest file 'wheels.egg-info/SOURCES.txt'\n"}
+[7.133486] (wheels) StdoutLine: {'line': b"writing manifest file 'wheels.egg-info/SOURCES.txt'\n"}
+[7.142599] (wheels) StdoutLine: {'line': b'running build_ext\n'}
+[7.144022] (wheels) StdoutLine: {'line': b'Creating /home/dd3xp/sl/install/wheels/lib/python3.10/site-packages/wheels.egg-link (link to .)\n'}
+[7.150222] (wheels) StdoutLine: {'line': b'Installing motor_control script to /home/dd3xp/sl/install/wheels/lib/wheels\n'}
+[7.154705] (wheels) StdoutLine: {'line': b'\n'}
+[7.155985] (wheels) StdoutLine: {'line': b'Installed /home/dd3xp/sl/build/wheels\n'}
+[7.156776] (wheels) StdoutLine: {'line': b'running symlink_data\n'}
+[7.157830] (wheels) StdoutLine: {'line': b'creating /home/dd3xp/sl/install/wheels/share/ament_index\n'}
+[7.158594] (wheels) StdoutLine: {'line': b'creating /home/dd3xp/sl/install/wheels/share/ament_index/resource_index\n'}
+[7.159352] (wheels) StdoutLine: {'line': b'creating /home/dd3xp/sl/install/wheels/share/ament_index/resource_index/packages\n'}
+[7.161001] (wheels) StdoutLine: {'line': b'symbolically linking /home/dd3xp/sl/build/wheels/resource/wheels -> /home/dd3xp/sl/install/wheels/share/ament_index/resource_index/packages\n'}
+[7.162633] (wheels) StdoutLine: {'line': b'symbolically linking /home/dd3xp/sl/build/wheels/package.xml -> /home/dd3xp/sl/install/wheels/share/wheels\n'}
+[7.187194] (-) TimerEvent: {}
+[7.290709] (-) TimerEvent: {}
+[7.373954] (wheels) CommandEnded: {'returncode': 0}
+[7.391211] (-) TimerEvent: {}
+[7.478219] (wheels) JobEnded: {'identifier': 'wheels', 'rc': 0}
+[7.482239] (-) EventReactorShutdown: {}

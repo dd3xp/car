@@ -1,0 +1,9 @@
+source;share/wheels/hook/pythonpath.ps1
+source;share/wheels/hook/pythonpath.dsv
+source;share/wheels/hook/pythonpath.sh
+source;share/wheels/hook/ament_prefix_path.ps1
+source;share/wheels/hook/ament_prefix_path.dsv
+source;share/wheels/hook/ament_prefix_path.sh
+source;../../build/wheels/share/wheels/hook/pythonpath_develop.ps1
+source;../../build/wheels/share/wheels/hook/pythonpath_develop.dsv
+source;../../build/wheels/share/wheels/hook/pythonpath_develop.sh
